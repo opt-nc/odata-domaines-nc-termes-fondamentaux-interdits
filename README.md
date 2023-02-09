@@ -4,6 +4,11 @@ Termes [fondamentaux interdits](https://www.domaine.nc/intd) pour les noms de do
 
 # Charger les données dans DuckDB
 
+```shell
+gh repo clone opt-nc/odata-domaines-nc-termes-fondamentaux-interdits
+cd odata-domaines-nc-termes-fondamentaux-interdits
+```
+
 
 ```shell
 rm forbidden_terms.duckdb 2> /dev/null || true
