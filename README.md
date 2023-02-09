@@ -18,6 +18,7 @@ duckdb forbidden_terms.duckdb
 -- export to a parquet file
 EXPORT DATABASE 'target' (FORMAT PARQUET, COMPRESSION ZSTD, ROW_GROUP_SIZE 100000);
 .exit
+
 ```
 
 Then see what we get:
