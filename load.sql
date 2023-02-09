@@ -17,6 +17,8 @@ insert into forbidden_terms (name, cat)
         categorie
     from read_csv_auto('data/termes.csv', HEADER=TRUE);
 
+SELECT * from forbidden_terms;
+
 -- make a first report
 select cat as "Category",
     count(*) as "Nb. Cats"
